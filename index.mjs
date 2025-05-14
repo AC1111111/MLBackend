@@ -4,7 +4,7 @@ import user from './routes/user.mjs';
 import errorHandler from './middleware/errors.mjs';
 
 const app = express();
-const port = 5000;
+const port = 2000;
 
 app.use(cors());
 app.use(express.json());
